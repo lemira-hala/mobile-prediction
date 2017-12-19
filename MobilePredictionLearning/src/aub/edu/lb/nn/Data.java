@@ -42,7 +42,7 @@ public class Data {
 	}
 	
 	public Data(int trainPercentage) throws FileNotFoundException {
-		Scanner s = new Scanner (new File("size.txt")); 
+		Scanner s = new Scanner (new File("data/size.txt")); 
 		String str = s.nextLine();
 		size = Integer.parseInt(str);
 		s.close(); 
@@ -70,7 +70,7 @@ public class Data {
 	
 	}
 	public void  getInputs() throws FileNotFoundException {
-	        Scanner file = new Scanner (new File("input.txt")); 
+	        Scanner file = new Scanner (new File("data/input.txt")); 
 	        for(int i = 0; i < size ;i++) {
 	            String str = file.nextLine();
 	            String[] tokens= str.split(" ");
@@ -93,7 +93,7 @@ public class Data {
 	}
 	
 	public void  getOutputs() throws FileNotFoundException {
-	        Scanner file = new Scanner (new File("output.txt")); 
+	        Scanner file = new Scanner (new File("data/output.txt")); 
 	        for(int i = 0; i < size ;i++) {
 	            String str = file.nextLine();
 	            String[] tokens= str.split(" ");
