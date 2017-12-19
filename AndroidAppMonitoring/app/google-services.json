@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "905590864301",
+    "firebase_url": "https://keyloggers-notify.firebaseio.com",
+    "project_id": "keyloggers-notify",
+    "storage_bucket": "keyloggers-notify.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905590864301:android:de8e9fc0642ce0e0",
+        "android_client_info": {
+          "package_name": "com.example.halac.keyloggers_notify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905590864301-r94ng5t87meski6q6r2mvhvq3003d9ba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.halac.keyloggers_notify",
+            "certificate_hash": "29780f646ccbd508e8cf188805d07df2bf04eaf0"
+          }
+        },
+        {
+          "client_id": "905590864301-722h1oa7uog50urvt4vn34df2v29dhvu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7LIKy6FGX02Q41AyXNBWGot9ZikDTtII"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905590864301-722h1oa7uog50urvt4vn34df2v29dhvu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
